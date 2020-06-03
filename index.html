@@ -8,45 +8,33 @@
 </head>
 
 <body>
-	<div class="header">
-		Photo Card
-	</div>
-	<div>
-		Карточка любимой фотографии
-	</div>
-	<div>
-		<ul>
-			<li> Можно изменить значение всех элементов карточки</li>
-			<li> Edit — включает режим редактирования</li>
-			<li> Save — сохраняет изменения</li>
-			<li> Cancel — отключает режим редактирования</li>
 
-		</ul>
-	</div>
 	<div class="card">
 		<div class="mainCard">
 			<div class="userImage">
-				<img src="mozir-pripyat.jpg" />
+				<img src="paris.jpg" />
 			</div>
-			<div class="userInfo">
-				<div class="userAvatar">
-					<img src="avatar.png" />
-				</div>
-				<div class="content">
-					<div id="userName">
-						Alex Hudenko
-				    </div>
-					<div id="userNick">
-						@hoodoy
+			<div class="userCard">
+				<div class="userInfo">
+					<div class="userAvatar">
+						<img src="myavatar.jpg" />
+					</div>
+					<div class="content">
+						<div id="userName">
+							Anna Grinko
+						</div>
+						<div id="userNick">
+							@Anna Grinko
+						</div>
 					</div>
 				</div>
-			</div>
-			<div class="userPost">
-				<span id="post">Вид с моста через Припять. Окрестности города Мозырь. Трасса P-31.</span>
-				<br>
-				<a href="https://yandex.by/maps/-/CKqiUYYV" target="_blank"> Посмотреть на карте</a>
-				<br>
-				<time datetime="2019-07-20"> 20 июля 2019 <time>
+				<div class="userPost">
+					<span id="post">Вид на Эйфелеву башню. Mост Йена, Париж, Иль-де-Франс, Франция</span>
+					<br>
+					<a href="https://clck.ru/NnNGb" target="_blank"> Посмотреть на карте</a>
+					<br>
+					<time datetime="2019-07-20"> 28 сентября 2018 <time>
+				</div>
 			</div>
 			<div class="cardFooter">
 				<a href="#" id="editButton"> Edit </a>
@@ -60,7 +48,7 @@
 					</label>
 				</div>
 				<div class="data">
-					<input type="text" id="imageField" placeholder="URL" value="mozir-pripyat.jpg">
+					<input type="text" id="imageField"  value="paris.jpg">
 				</div>
 			</div>
 			<div class="smallform">
@@ -70,7 +58,7 @@
 					</label>
 				</div>
 				<div class="data">
-					<input type="text" id="avatarField" placeholder="URL" value="avatar.png">
+					<input type="text" id="avatarField" value="myavatar.jpg">
 				</div>
 			</div>
 			<div class="smallform">
@@ -80,7 +68,7 @@
 					</label>
 				</div>
 				<div class="data">
-					<input type="text" id="nameField" placeholder="Name" value="Alex Hudenko">
+					<input type="text" id="nameField" value="Anna Grinko">
 				</div>
 			</div>
 			<div class="smallform">
@@ -90,7 +78,7 @@
 					</label>
 				</div>
 				<div class="data">
-					<input type="text" id="nicknameField" placeholder="Nickname" value="Nickname">
+					<input type="text" id="nicknameField"  value="@Anna Grinko">
 				</div>
 			</div>
 			<div class="smallform">
@@ -100,7 +88,7 @@
 					</label>
 				</div>
 				<div class="data">
-					<input type="text" id="mapField" placeholder="URL" value="https://yandex.by/maps/-/CKqiUYYV">
+					<input type="text" id="mapField" value="https://clck.ru/NnNGb">
 				</div>
 			</div>
 			<div class="smallform">
@@ -110,7 +98,7 @@
 					</label>
 				</div>
 				<div class="data">
-					<input type="text" id="dateField" value="20 июля 2019">
+					<input type="text" id="dateField" value="28 сентября 2018">
 				</div>
 			</div>
 			<div class="smallform">
@@ -120,7 +108,8 @@
 					</label>
 				</div>
 				<div class="data">
-					<textarea id="descriptionField"> Вид с моста через Припять. Окрестности города Мозырь. Трасса P-31.</textarea>
+					<textarea
+						id="descriptionField"> Вид на Эйфелеву башню. Mост Йена, Париж, Иль-де-Франс, Франция</textarea>
 				</div>
 			</div>
 			<div class="editFormFooter">
